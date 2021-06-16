@@ -1,0 +1,43 @@
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    justify-content: space-between;
+}
+
+input,
+label {
+    margin: .4rem 0;
+    border-style: solid;
+    background-color: antiquewhite;
+    width: 15%;
+    text-align: center;
+    justify-content: space-between;
+}
+    
+html{
+    padding : 0px;
+    margin : 0px;
+    background-image: url(Library-interior-photography_1920x1080.jpg);
+}
+
+nav {
+    display: table;
+    width : 100%;
+}
+
+a {
+    display: table-cell;
+    width : 25%;
+    text-align: center;
+    border: 5px;
+    background-color : skyblue;
+    font-family: 'Texturina', serif;
+}
+
+h1{
+    background-color : lightgray;
+    text-align: center;
+    color : black;
+    margin : 0px;
+    font-family: 'Nerko One', cursive;
+}

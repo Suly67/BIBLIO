@@ -1,0 +1,120 @@
+html, body{
+    padding : 0px;
+    margin : 0px;
+    background-image: url(Library-interior-photography_1920x1080.jpg);
+}
+ 
+img{
+    
+    padding: 2%; 
+}
+
+.b1{
+    width : 80%;
+    margin : 0px auto;
+    text-align: center;
+    border-style: solid;
+    background-color:antiquewhite;
+    border-radius: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    
+}
+
+.main{
+    width : 80%;
+    margin : 0px auto;
+    background-color: #806b4b ;
+}
+
+h1{
+    background-color : lightgray;
+    text-align: center;
+    color : black;
+    margin : 0px;
+    font-family: 'Nerko One', cursive;
+}
+
+p1 {
+    width: 25%;
+    height: 35%;
+    
+    
+}
+
+nav {
+    display: table;
+    width : 100%;
+    
+}
+a {
+    display: table-cell;
+    width : 25%;
+    text-align: center;
+    border: 5px;
+    background-color : skyblue;
+    font-family: 'Texturina', serif;
+}
+section {
+    display: table;
+    width : 80%;
+    box-sizing: border-box;
+    vertical-align: text-top;
+}
+
+articleun {
+    display: inline-block;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-style: solid;
+    background-color: antiquewhite;
+    padding: 6%;
+    margin-left: 10%;
+}
+articledeux {
+    display: inline-block;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-style: solid;
+    background-color: antiquewhite;
+    padding: 6%;
+    margin-left: 10%;
+}
+articletrois {
+    display: inline-block;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-style: solid;
+    background-color: antiquewhite;
+    padding: 5%;
+    margin-left: 10%;
+}
+articleq {
+    display: inline-block;
+    width : 50%;
+    box-sizing: border-box;
+    border-style: solid;
+    background-color: antiquewhite;
+    padding: 5%;
+    justify-content: space-between;
+}
+
+header {
+    font-weight: 800;
+    color : black;
+    background-color: #808B96;
+}
+
+footer {
+    font-weight: 800;
+    color : darkgrey;
+    text-align: right;
+}
+
+
+.main > footer {
+    background-color : crimson;
+    color: antiquewhite;
+    text-align: center;
+}
